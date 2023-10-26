@@ -10,10 +10,10 @@ class employee extends Model
     use HasFactory;
     
     protected $fillable = [
-        'nameemployee',
-        'nrp',
-        'position',
-        'gender',
+        'productName',
+        'productID',
+        'owner',
+        'location',
         'description',
         // 'image',
     ];

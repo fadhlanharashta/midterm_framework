@@ -5,7 +5,7 @@
         @csrf
         @method('PATCH')
         <!-- Editable form fields here -->
-        <input type="text" name="nameemployee" value="{{ $employee->nameemployee }}">
+        <input type="text" name="productName" value="{{ $employee->productName }}">
         <!-- Other fields here -->
 
         <button type="submit">Update Employee</button>

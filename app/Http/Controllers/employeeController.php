@@ -29,17 +29,17 @@ class EmployeeController extends Controller // Use the correct class name
     public function store(Request $request)
     {
         $request->validate([
-            'nameemployee' => 'required',
-            'nrp' => 'required',
-            'position' => 'required',
-            'gender' => 'required',
+            'productName' => 'required',
+            'productID' => 'required',
+            'owner' => 'required',
+            'location' => 'required',
             'description' => 'required',
             // 'image' => 'required',
         ], [
-            'nameemployee.required' => 'Name can\'t be empty!',
-            'nrp.required' => 'NRP can\'t be empty!',
-            'position.required' => 'Position can\'t be empty!',
-            'gender.required' => 'Gender can\'t be empty!',
+            'productName.required' => 'productName can\'t be empty!',
+            'productID.required' => 'productID can\'t be empty!',
+            'owner.required' => 'owner can\'t be empty!',
+            'location.required' => 'location can\'t be empty!',
             'description.required' => 'Description can\'t be empty!',
             // 'image.required' => 'Image can\'t be empty!'
         ]);
@@ -47,10 +47,10 @@ class EmployeeController extends Controller // Use the correct class name
         // Handle image upload and encoding here if necessary
 
         Employee::create([
-            'nameemployee' => $request->nameemployee, 
-            'nrp' => $request->nrp,
-            'position' => $request->position,
-            'gender' => $request->gender,
+            'productName' => $request->productName, 
+            'productID' => $request->productID,
+            'owner' => $request->owner,
+            'location' => $request->location,
             'description' => $request->description,
             // 'image' => $imageBase64,
         ]);
@@ -81,26 +81,26 @@ class EmployeeController extends Controller // Use the correct class name
     public function update(Request $request, $id)
     {
         $request->validate([
-            'nameemployee' => 'required',
-            'nrp' => 'required',
-            'position' => 'required',
-            'gender' => 'required',
+            'productName' => 'required',
+            'productID' => 'required',
+            'owner' => 'required',
+            'location' => 'required',
             'description' => 'required',
         ], [
-            'nameemployee.required' => 'Name can\'t be empty!',
-            'nrp.required' => 'NRP can\'t be empty!',
-            'position.required' => 'Position can\'t be empty!',
-            'gender.required' => 'Gender can\'t be empty!',
+            'productName.required' => 'Name can\'t be empty!',
+            'productID.required' => 'NRP can\'t be empty!',
+            'owner.required' => 'Position can\'t be empty!',
+            'location.required' => 'Gender can\'t be empty!',
             'description.required' => 'Description can\'t be empty!',
         ]);
 
         $employee = Employee::findOrFail($id);
 
         $employee->update([
-            'nameemployee' => $request->input('nameemployee'),
-            'nrp' => $request->input('nrp'),
-            'position' => $request->input('position'),
-            'gender' => $request->input('gender'),
+            'productName' => $request->input('productName'),
+            'productID' => $request->input('productID'),
+            'owner' => $request->input('owner'),
+            'location' => $request->input('location'),
             'description' => $request->input('description'),
         ]);
 

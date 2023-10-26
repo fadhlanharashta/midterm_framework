@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Employees') }}
+            {{ __('Products') }}
         </h2>
     </x-slot>
 
@@ -9,10 +9,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             @foreach ($employees as $employee)
                 <div class="bg-white p-4 rounded-lg shadow-md">
-                    <h4 class="text-lg font-semibold">{{ $employee->nameemployee }}</h4>
-                    <p>NRP: {{ $employee->nrp }}</p>
-                    <p>Position: {{ $employee->position }}</p>
-                    <p>Gender: {{ $employee->gender }}</p>
+                    <h4 class="text-lg font-semibold">{{ $employee->productName }}</h4>
+                    <p>NRP: {{ $employee->productID }}</p>
+                    <p>Position: {{ $employee->owner }}</p>
+                    <p>Gender: {{ $employee->location }}</p>
                     <p>Brief Description: {{ $employee->description }}</p>
                     
                     <a href="{{ route('employee.edit', ['id' => $employee->id]) }}" class="btn btn-info">Edit</a>

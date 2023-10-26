@@ -9,7 +9,7 @@ Dashboard<br>
 Form<br>
 ![List](https://cdn.discordapp.com/attachments/934661338934943774/1167054331758006373/image.png?ex=654cbb0b&is=653a460b&hm=bcafddca2d78d251b330847d0993f498a9b8b9291c540f9e6093adc0f236b56c&)
 List of Data
-![Form](https://cdn.discordapp.com/attachments/934661338934943774/1167015021386154055/image.png?ex=654c966f&is=653a216f&hm=a651599aee7fba73ddec18835b52ac4a9881658b6a3b405f8b1c14d30fefd6a4&)
+![Form](https://cdn.discordapp.com/attachments/934661338934943774/1167054821602369546/image.png?ex=654cbb80&is=653a4680&hm=d4abc480042401bb691e5b16c226d500047841a632672a87798553a38571528d&)
 Form
 ![Login](https://cdn.discordapp.com/attachments/934661338934943774/1167019406203826196/image.png?ex=654c9a84&is=653a2584&hm=498c27447995385b11767792c6c7e2d32a9d22fb56521b17744b3c55cb5cce68&)
 Login<br>

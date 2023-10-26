@@ -5,8 +5,6 @@ The location of the file is in master<br>
 
 ![Dashboard](https://cdn.discordapp.com/attachments/934661338934943774/1167014549061386261/image.png?ex=654c95fe&is=653a20fe&hm=84dadff7d8ef9d1ab2addd278afbc04071b1b32cd103df868de1a96bf265cadd&)
 Dashboard<br>
-![Form](https://cdn.discordapp.com/attachments/934661338934943774/1167015021386154055/image.png?ex=654c966f&is=653a216f&hm=a651599aee7fba73ddec18835b52ac4a9881658b6a3b405f8b1c14d30fefd6a4&)
-Form<br>
 ![List](https://cdn.discordapp.com/attachments/934661338934943774/1167054331758006373/image.png?ex=654cbb0b&is=653a460b&hm=bcafddca2d78d251b330847d0993f498a9b8b9291c540f9e6093adc0f236b56c&)
 List of Data
 ![Form](https://cdn.discordapp.com/attachments/934661338934943774/1167054821602369546/image.png?ex=654cbb80&is=653a4680&hm=d4abc480042401bb691e5b16c226d500047841a632672a87798553a38571528d&)
